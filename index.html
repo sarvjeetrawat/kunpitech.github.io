@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="KunpiTech builds simple, useful, and entertaining Android apps across productivity, music, wellness, utilities, and games."
+    />
+    <title>KunpiTech | Android Apps for Everyday Life</title>
+    <link rel="icon" href="assets/kunpitech-mark.svg" type="image/svg+xml" />
+    <link rel="preload" href="assets/kunpitech-hero.png" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="KunpiTech home">
+        <img src="assets/kunpitech-logo.svg" alt="KunpiTech" />
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16" />
+        </svg>
+      </button>
+
+      <nav class="site-nav" data-nav>
+        <a href="#apps">Apps</a>
+        <a href="#studio">Studio</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="header-cta" href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m7 4 11 8L7 20V4Z" />
+        </svg>
+        Google Play
+      </a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-reveal visible">
+        <div class="hero-copy">
+          <p class="eyebrow">Independent Android app studio</p>
+          <h1>Useful apps, playful ideas, built under one sharp little roof.</h1>
+          <p class="hero-text">
+            KunpiTech creates Android apps for daily tasks, finance, music, wellness, learning, and quick entertainment.
+            Clean interfaces, practical features, and frequent improvements are the whole point.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#apps">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 5h16v14H4zM8 9h8M8 13h5" />
+              </svg>
+              Explore apps
+            </a>
+            <a class="button ghost" href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m7 4 11 8L7 20V4Z" />
+              </svg>
+              View store
+            </a>
+          </div>
+          <div class="hero-metrics" aria-label="KunpiTech highlights">
+            <span><strong data-count="18">0</strong> featured apps</span>
+            <span><strong data-count="5">0</strong>.0 rated apps</span>
+            <span><strong>Free</strong> downloads</span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="KunpiTech app showcase artwork">
+          <img src="assets/kunpitech-hero.png" alt="Floating Android app screens representing KunpiTech apps" />
+          <div class="signal-card signal-one">
+            <span>Now building</span>
+            <strong>Tools, games, wellness</strong>
+          </div>
+          <div class="signal-card signal-two">
+            <span>Android-first</span>
+            <strong>Fast, clean, focused</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="KunpiTech app categories">
+        <div class="ticker-track">
+          <span>Games</span>
+          <span>Utilities</span>
+          <span>Learning</span>
+          <span>Music</span>
+          <span>Health</span>
+          <span>Wellness</span>
+          <span>Creative</span>
+          <span>Productivity</span>
+          <span>Games</span>
+          <span>Utilities</span>
+          <span>Learning</span>
+          <span>Music</span>
+          <span>Health</span>
+          <span>Wellness</span>
+          <span>Creative</span>
+          <span>Productivity</span>
+        </div>
+      </section>
+
+      <section class="apps-section section-reveal" id="apps">
+        <div class="section-heading">
+          <p class="eyebrow">App portfolio</p>
+          <h2>Android apps from KunpiTech</h2>
+          <p>Featured apps from the Kunpi Tech Google Play developer portfolio, organized so visitors can quickly find what they need.</p>
+        </div>
+
+        <div class="app-filters" aria-label="Filter apps">
+          <button class="filter-button active" type="button" data-filter="all">All</button>
+          <button class="filter-button" type="button" data-filter="games">Games</button>
+          <button class="filter-button" type="button" data-filter="tools">Tools</button>
+          <button class="filter-button" type="button" data-filter="learning">Learning</button>
+          <button class="filter-button" type="button" data-filter="music">Music</button>
+          <button class="filter-button" type="button" data-filter="health">Health</button>
+          <button class="filter-button" type="button" data-filter="wellness">Wellness</button>
+        </div>
+
+        <div class="app-grid" data-app-grid>
+          <article class="app-card spotlight" data-category="music">
+            <figure class="app-feature">
+              <img src="assets/radiowalk.png" alt="RadioWalk app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon radio">RW</div>
+                <div>
+                  <p class="app-category">Radio and music</p>
+                  <h3>RadioWalk</h3>
+                </div>
+              </div>
+              <p>Online radio and FM streaming with global stations, genres, favorites, and simple listening controls.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/details?hl=en_IN&id=com.kunpitech.radiowalk" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+
+          <article class="app-card" data-category="wellness">
+            <figure class="app-feature">
+              <img src="assets/yogam.png" alt="Yogam app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon yogam">YG</div>
+                <div>
+                  <p class="app-category">Wellness</p>
+                  <h3>Yogam</h3>
+                </div>
+              </div>
+              <p>Yoga and meditation routines for daily practice, reminders, breathing, mindfulness, and progress tracking.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/details?id=com.kunpitech.yogam" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+
+          <article class="app-card" data-category="learning games">
+            <figure class="app-feature">
+              <img src="assets/animalsounds.png" alt="Animal Sounds app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon animal">AS</div>
+                <div>
+                  <p class="app-category">Learning game</p>
+                  <h3>Animal Sounds</h3>
+                </div>
+              </div>
+              <p>A playful sound-learning app for exploring animals, recognition, listening, and early learning moments.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+
+          <article class="app-card" data-category="games">
+            <figure class="app-feature">
+              <img src="assets/brainhex.png" alt="BrainHex app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon brain">BH</div>
+                <div>
+                  <p class="app-category">Puzzle game</p>
+                  <h3>BrainHex</h3>
+                </div>
+              </div>
+              <p>A brain-training puzzle experience for pattern thinking, quick logic, and focused problem solving.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+
+          <article class="app-card" data-category="tools">
+            <figure class="app-feature">
+              <img src="assets/carping.png" alt="CarPing app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon car">CP</div>
+                <div>
+                  <p class="app-category">Vehicle tool</p>
+                  <h3>CarPing</h3>
+                </div>
+              </div>
+              <p>A simple vehicle companion for car-related reminders, tracking, and everyday ownership tasks.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+
+          <article class="app-card" data-category="tools learning">
+            <figure class="app-feature">
+              <img src="assets/crayonova.png" alt="Crayonova app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon crayon">CN</div>
+                <div>
+                  <p class="app-category">Creative tool</p>
+                  <h3>Crayonova</h3>
+                </div>
+              </div>
+              <p>A bright creative app for drawing, coloring, and playful visual expression.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+
+          <article class="app-card" data-category="tools">
+            <figure class="app-feature">
+              <img src="assets/discoflash.png" alt="DiscoFlash app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon disco">DF</div>
+                <div>
+                  <p class="app-category">Utility</p>
+                  <h3>DiscoFlash</h3>
+                </div>
+              </div>
+              <p>A flashy utility for light effects, quick visual signals, and fun phone-based illumination.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+
+          <article class="app-card" data-category="games">
+            <figure class="app-feature">
+              <img src="assets/knightour.png" alt="Knight Tour app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon knight">KT</div>
+                <div>
+                  <p class="app-category">Puzzle game</p>
+                  <h3>Knight Tour</h3>
+                </div>
+              </div>
+              <p>A chess-inspired logic puzzle built around knight movement, planning, and complete-board challenges.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+
+          <article class="app-card" data-category="learning games">
+            <figure class="app-feature">
+              <img src="assets/mathrushrace.png" alt="Math Rush Race app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon math">MR</div>
+                <div>
+                  <p class="app-category">Math game</p>
+                  <h3>Math Rush Race</h3>
+                </div>
+              </div>
+              <p>A fast-paced math racing game for arithmetic practice, speed, and playful learning.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+
+          <article class="app-card" data-category="learning games">
+            <figure class="app-feature">
+              <img src="assets/mathtugclash.png" alt="Math Tug of Clash app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon tug">MT</div>
+                <div>
+                  <p class="app-category">Math game</p>
+                  <h3>Math Tug of Clash</h3>
+                </div>
+              </div>
+              <p>A competitive math challenge where quick answers turn learning into a tug-of-war style clash.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+
+          <article class="app-card" data-category="health tools">
+            <figure class="app-feature">
+              <img src="assets/medpulse.png" alt="MedPulse app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon med">MP</div>
+                <div>
+                  <p class="app-category">Health tool</p>
+                  <h3>MedPulse</h3>
+                </div>
+              </div>
+              <p>A health-focused app for tracking medical routines, reminders, and day-to-day wellness organization.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+
+          <article class="app-card" data-category="tools">
+            <figure class="app-feature">
+              <img src="assets/mypack.png" alt="My Pack app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon pack">MP</div>
+                <div>
+                  <p class="app-category">Utility</p>
+                  <h3>My Pack</h3>
+                </div>
+              </div>
+              <p>A packing and organization companion for trips, checklists, essentials, and planned preparation.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+
+          <article class="app-card" data-category="tools">
+            <figure class="app-feature">
+              <img src="assets/protea.png" alt="Protea app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon protea">PR</div>
+                <div>
+                  <p class="app-category">Smart tool</p>
+                  <h3>Protea</h3>
+                </div>
+              </div>
+              <p>A practical app from KunpiTech focused on clean workflows, helpful screens, and everyday utility.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+
+          <article class="app-card" data-category="games">
+            <figure class="app-feature">
+              <img src="assets/rebus.png" alt="Rebus app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon rebus">RB</div>
+                <div>
+                  <p class="app-category">Puzzle game</p>
+                  <h3>Rebus</h3>
+                </div>
+              </div>
+              <p>A visual puzzle app for decoding clues, spotting patterns, and solving rebus-style challenges.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+
+          <article class="app-card" data-category="tools">
+            <figure class="app-feature">
+              <img src="assets/shagun.png" alt="Shagun app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon shagun">SG</div>
+                <div>
+                  <p class="app-category">Event tool</p>
+                  <h3>Shagun</h3>
+                </div>
+              </div>
+              <p>A celebration and gifting-focused app for organizing shagun details with a clean digital flow.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+
+          <article class="app-card" data-category="tools">
+            <figure class="app-feature">
+              <img src="assets/shayriwala.png" alt="Shayriwala app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon shayri">SW</div>
+                <div>
+                  <p class="app-category">Writing app</p>
+                  <h3>Shayriwala</h3>
+                </div>
+              </div>
+              <p>A shayari and expression app for browsing, saving, and sharing poetic lines and messages.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+
+          <article class="app-card" data-category="tools">
+            <figure class="app-feature">
+              <img src="assets/shiftro.png" alt="Shiftro app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon shift">SH</div>
+                <div>
+                  <p class="app-category">Productivity</p>
+                  <h3>Shiftro</h3>
+                </div>
+              </div>
+              <p>A shift and schedule helper for planning work patterns, routines, and day-to-day organization.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+
+          <article class="app-card" data-category="tools">
+            <figure class="app-feature">
+              <img src="assets/tasklog.jpg" alt="Task Log app feature image" loading="lazy" />
+            </figure>
+            <div>
+              <div class="app-title-row">
+                <div class="app-icon task">TL</div>
+                <div>
+                  <p class="app-category">Productivity</p>
+                  <h3>Task Log</h3>
+                </div>
+              </div>
+              <p>A task-tracking app for logging work, staying organized, and keeping progress easy to review.</p>
+            </div>
+            <a href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">Open on Google Play</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="studio section-reveal" id="studio">
+        <div class="studio-copy">
+          <p class="eyebrow">About the studio</p>
+          <h2>Small team energy, broad app ideas.</h2>
+          <p>
+            KunpiTech focuses on apps that are easy to understand from the first tap. The portfolio spans lightweight utilities,
+            entertainment, education, wellness, radio, music, and productivity.
+          </p>
+        </div>
+        <div class="studio-panels">
+          <article>
+            <span class="panel-number">01</span>
+            <h3>Native Android focus</h3>
+            <p>Built for Android users with clean navigation, responsive layouts, and performance-minded flows.</p>
+          </article>
+          <article>
+            <span class="panel-number">02</span>
+            <h3>Practical first</h3>
+            <p>Every app starts from a simple use case, then gets polished with useful details and smooth interactions.</p>
+          </article>
+          <article>
+            <span class="panel-number">03</span>
+            <h3>Privacy aware</h3>
+            <p>Many listed apps declare no third-party sharing and no data collection on Google Play.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="process section-reveal" id="process">
+        <div class="section-heading">
+          <p class="eyebrow">How KunpiTech builds</p>
+          <h2>From idea to Play Store</h2>
+        </div>
+        <div class="process-steps">
+          <article>
+            <span>1</span>
+            <h3>Find the daily use case</h3>
+            <p>Pick a real moment: calculate a loan, play a party game, listen to radio, practice yoga, or solve a puzzle.</p>
+          </article>
+          <article>
+            <span>2</span>
+            <h3>Design for first-tap clarity</h3>
+            <p>Keep screens readable, controls obvious, and actions quick enough for repeat use.</p>
+          </article>
+          <article>
+            <span>3</span>
+            <h3>Improve after launch</h3>
+            <p>Ship, learn from users, fix rough edges, and keep the app moving.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section-reveal" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Have feedback, a bug report, or a collaboration idea?</h2>
+          <p>Reach KunpiTech directly or visit the developer profile to explore all apps on Google Play.</p>
+          <div class="contact-links">
+            <a href="mailto:support@kunpitech.in">support@kunpitech.in</a>
+            <a href="mailto:kunpitech@gmail.com">kunpitech@gmail.com</a>
+            <a href="https://play.google.com/store/apps/developer?id=Kunpi+Tech&hl=en_IN" target="_blank" rel="noreferrer">Google Play developer page</a>
+            <a href="https://kunpitech.in/privacy.html" target="_blank" rel="noreferrer">Privacy Policy</a>
+            <a href="https://kunpitech.in/terms.html" target="_blank" rel="noreferrer">Terms of Use</a>
+          </div>
+        </div>
+
+        <form class="contact-form" action="mailto:support@kunpitech.in" method="post" enctype="text/plain">
+          <label>
+            Name
+            <input name="name" type="text" autocomplete="name" required />
+          </label>
+          <label>
+            Email
+            <input name="email" type="email" autocomplete="email" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="button primary" type="submit">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7Z" />
+            </svg>
+            Send message
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#top" aria-label="KunpiTech home">
+        <img src="assets/kunpitech-logo.svg" alt="KunpiTech" />
+      </a>
+      <p>Android apps for everyday life, entertainment, and practical problem solving.</p>
+      <div>
+        <a href="#apps">Apps</a>
+        <a href="#contact">Contact</a>
+        <a href="https://kunpitech.in/privacy.html" target="_blank" rel="noreferrer">Privacy Policy</a>
+        <a href="https://kunpitech.in/terms.html" target="_blank" rel="noreferrer">Terms of Use</a>
+        <a href="https://kunpitech.in/" target="_blank" rel="noreferrer">kunpitech.in</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
