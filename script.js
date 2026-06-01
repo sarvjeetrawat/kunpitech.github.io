@@ -4,6 +4,7 @@ const navToggle = document.querySelector("[data-nav-toggle]");
 const revealItems = document.querySelectorAll(".section-reveal");
 const filterButtons = document.querySelectorAll("[data-filter]");
 const appCards = document.querySelectorAll(".app-card");
+const contactForm = document.querySelector("[data-contact-form]");
 
 const syncHeader = () => {
   header.classList.toggle("scrolled", window.scrollY > 12);
@@ -81,4 +82,10 @@ filterButtons.forEach((button) => {
       card.classList.toggle("hidden", !shouldShow);
     });
   });
+});
+
+contactForm?.addEventListener("submit", (event) => {
+  event.preventDefault();
+  alert("Thank you! We will get back to you soon.");
+  contactForm.reset();
 });

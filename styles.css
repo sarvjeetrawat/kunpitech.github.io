@@ -569,6 +569,12 @@ h3 {
   border-bottom: 2px solid var(--gold);
 }
 
+.contact-links span {
+  width: fit-content;
+  color: var(--ink);
+  font-weight: 900;
+}
+
 .contact-form {
   display: grid;
   gap: 14px;
@@ -587,6 +593,7 @@ h3 {
 }
 
 .contact-form input,
+.contact-form select,
 .contact-form textarea {
   width: 100%;
   border: 1px solid var(--line);
@@ -598,6 +605,7 @@ h3 {
 }
 
 .contact-form input:focus,
+.contact-form select:focus,
 .contact-form textarea:focus {
   border-color: var(--teal);
   box-shadow: 0 0 0 4px rgba(0, 155, 143, 0.12);
